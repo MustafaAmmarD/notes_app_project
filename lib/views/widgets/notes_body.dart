@@ -18,7 +18,7 @@ class NotesBody extends StatelessWidget {
              const SizedBox(width: 12),
         // Notification Icon
         Container(
-          margin: EdgeInsets.only(right: 10),
+          margin: EdgeInsets.only(right: 10), 
           child: IconButton(
             icon: const Icon(Icons.notifications_none),
             onPressed: () {
