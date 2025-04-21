@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app_project/views/widgets/date_box.dart';
 import 'package:notes_app_project/views/widgets/search_box.dart';
 
 class NotesBody extends StatelessWidget {
@@ -27,7 +28,22 @@ class NotesBody extends StatelessWidget {
           ),
         ),
             ],
-          )
+          ),
+ 
+        SizedBox(height: 20,),
+
+        SizedBox(
+          height: 120,
+          child: ListView.builder(
+            scrollDirection: Axis.horizontal,
+            itemCount: 10,
+            itemBuilder:(context,index){
+            SizedBox(width: 15,);
+             return  DateBox(weekday: "Tue", day: "23", month: "Apr");
+            }
+          ),
+        ),
+
       
         ],
       ),
