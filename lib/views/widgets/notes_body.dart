@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app_project/views/widgets/category_list.dart';
 import 'package:notes_app_project/views/widgets/date_box.dart';
+import 'package:notes_app_project/views/widgets/notes_grid.dart';
 import 'package:notes_app_project/views/widgets/search_box.dart';
 
 class NotesBody extends StatelessWidget {
@@ -43,6 +45,10 @@ class NotesBody extends StatelessWidget {
             }
           ),
         ),
+
+        CategoriesList(),
+
+        Expanded(child: NotesGrid()),
 
       
         ],

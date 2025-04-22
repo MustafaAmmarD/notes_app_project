@@ -25,13 +25,6 @@ class DateBox extends StatelessWidget {
             color: Colors.white,
             borderRadius: BorderRadius.circular(25),
             border: Border.all(color: Colors.grey.shade300),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black12,
-                blurRadius: 6,
-                offset: const Offset(0, 2),
-              ),
-            ],
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
