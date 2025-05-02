@@ -9,8 +9,7 @@ class NotesBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
+    return Column(
         children: [
       
           SizedBox(height: 70,),
@@ -52,10 +51,8 @@ class NotesBody extends StatelessWidget {
 
       
         ],
-      ),
-    );
+      );
   }
 }
-
 
 
